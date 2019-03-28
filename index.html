@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <div class ="container">
+      <div class="jumbotron">
+        <h1>Who's your Hogwarts friend?</h1>
+      </div>
+      <p>What is your favorite ice cream flavor?</p>
+      <select class="form-control" id="iceCream">
+        <option value="default"></option>
+        <option value="chocolate">Chocolate</option>
+        <option value="vanilla">Vanilla</option>
+        <option value="mint">Mint Chocolate Chip</option>
+        <option value="cookie">Cookie Dough</option>
+      </select>
+      <p>What is your zodiac sign?</p>
+      <select class="form-control" id="zodiac">
+        <option value="default"></option>
+        <option value="aries">Aries</option>
+        <option value="taurus">Taurus</option>
+        <option value="gemini">Gemini</option>
+        <option value="cancer">Cancer</option>
+        <option value="leo">Leo</option>
+        <option value="virgo">Virgo</option>
+        <option value="libra">Libra</option>
+        <option value="scorpio">Scorpio</option>
+        <option value="sagittarius">Sagittarius</option>
+        <option value="capricorn">Capricorn</option>
+        <option value="aquarius">Aquarius</option>
+        <option value="pisces">Pisces</option>
+      </select>
+
+      <button id="submit" class="btn btn-primary">Show me!</button>
+
+      <div id="harry">
+        <img src="img/harry.jpg">
+        <p>Your friend is Harry Potter!</p>
+      </div>
+
+      <div id="hermione">
+        <img src="img/hermione.jpg">
+        <p>Your friend is Hermione Granger!</p>
+      </div>
+
+      <div id="ron">
+        <img src="img/ron.jpg">
+        <p>Your friend is Ron Weasley!</p>
+      </div>
+
+      <div id="hagrid">
+        <img src="img/hagrid.jpg">
+        <p>Your friend is Rubeus Hagrid!</p>
+      </div>
+
+    </div>
+  </body>
+</html>
